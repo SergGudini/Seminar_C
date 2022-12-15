@@ -1,11 +1,14 @@
 // Задача 4: Напишите программу, которая принимает на вход три числа 
 //и выдаёт максимальное из этих чисел. 
 
+// Обявляем массив
+int[] chisla = new int[3];
+int i = 0;
 /*
 // Заполнение массива
 Console.WriteLine("Введите числа");
 while(i < 3)
 {
-   chislo[i] = Convert.ToInt32(Console.ReadLine());
-   i++;
+    chislo[i] = Convert.ToInt32(Console.ReadLine());
+    i++;
 }*/
