@@ -27,3 +27,7 @@ while(i < chisla.Length)
 
 //Вывод
 Console.WriteLine($"Максимальное число: {max}");
+
+//Второй вариант нахождения максимального
+max = chisla.Max();
+Console.WriteLine($"Максимальное число: {max}");
