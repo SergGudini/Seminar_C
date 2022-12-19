@@ -1,0 +1,15 @@
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\bin\Debug\net6.0\Zadacha_10.exe
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\bin\Debug\net6.0\Zadacha_10.deps.json
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\bin\Debug\net6.0\Zadacha_10.runtimeconfig.json
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\bin\Debug\net6.0\Zadacha_10.dll
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\bin\Debug\net6.0\Zadacha_10.pdb
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\obj\Debug\net6.0\Zadacha_10.csproj.AssemblyReference.cache
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\obj\Debug\net6.0\Zadacha_10.GeneratedMSBuildEditorConfig.editorconfig
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\obj\Debug\net6.0\Zadacha_10.AssemblyInfoInputs.cache
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\obj\Debug\net6.0\Zadacha_10.AssemblyInfo.cs
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\obj\Debug\net6.0\Zadacha_10.csproj.CoreCompileInputs.cache
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\obj\Debug\net6.0\Zadacha_10.dll
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\obj\Debug\net6.0\refint\Zadacha_10.dll
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\obj\Debug\net6.0\Zadacha_10.pdb
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\obj\Debug\net6.0\Zadacha_10.genruntimeconfig.cache
+D:\Seminar_c#\Home_work\Seminar_2\Zadacha_10\obj\Debug\net6.0\ref\Zadacha_10.dll
