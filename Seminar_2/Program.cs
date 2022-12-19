@@ -23,7 +23,7 @@ Console.WriteLine(result);*/
 
 Console.WriteLine(number);
 
-if (((number % 7) == 0) & ((number % 23) == 0))
+if (((number % 7) == 0) && ((number % 23) == 0))
 {
     Console.WriteLine("Кратно");
 }
