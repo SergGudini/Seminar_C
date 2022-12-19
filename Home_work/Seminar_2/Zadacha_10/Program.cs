@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Задача 10: Напишите программу, которая принимает на вход 
+// трёхзначное число и на выходе показывает вторую цифру этого числа.
+
+int number = new Random().Next(100,1000);
+Console.Write($"Ваше число: {number}"); // вывод рандомного числа из строки 4
+
+int result = (number / 10) % 10; // поиск второго числа
+Console.WriteLine($"\nВторое число: {result}");
