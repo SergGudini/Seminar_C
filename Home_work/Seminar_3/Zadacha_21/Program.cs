@@ -20,4 +20,4 @@ Console.Write("Введите z2: ");
 int z2 = Convert.ToInt32(Console.ReadLine());
 
 double result = Math.Sqrt(Math.Pow((x2 - x1),2) + Math.Pow((y2 - y1),2) + Math.Pow((z2 - z1),2));
-Console.Write($"Расстояние: {Math.Round(result,2)}");
+Console.Write($"Расстояние между точками ({x1};{y1};{z1}) и ({x2};{y2};{z2}): {Math.Round(result,2)}");
