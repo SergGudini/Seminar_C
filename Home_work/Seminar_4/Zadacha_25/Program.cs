@@ -1,7 +1,7 @@
 ﻿// Задача 25: Напишите цикл, который принимает на вход 
 // два числа (A и B) и возводит число A в натуральную степень B.
 
-int Stepen (int number1, int number2)
+int Stepen (int number1, int number2) // возводим число number1 в степень числа number2
 {
     int i = 1;
     int result = 1;
