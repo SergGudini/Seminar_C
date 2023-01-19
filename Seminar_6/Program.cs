@@ -84,19 +84,8 @@ BoolNumber(number, SizeFind(number));*/
 //Задача 44: Не используя рекурсию, выведите первые N чисел Фибоначчи. 
 //Первые два числа Фибоначчи: 0 и 1.
 
-/*int[] Fibonachi(int number)
-{
-    int[] array = new int[number];
-    array[0] = 0;
-    array[1] = 1;
-    for (int i = 2; i < number; i++)
-    {
-        array[i] = array[i - 1] + array[i-2];
-    }
-    return array;
-}*/
 
-Console.WriteLine("Введите число: ");
+/*Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 int[] array = new int[number];
@@ -111,6 +100,14 @@ int[] array = new int[number];
     for (int i = 0; i < number; i++)
     {
         Console.WriteLine(array[i]);
-    }
+    }*/
+
+// Задача 40: Напишите программу, которая принимает на вход три числа и проверяет, 
+// может ли существовать треугольник с сторонами такой длины.
+
+int Treugolnik(int a, int b, int c)
+{
+    
+}
 
 
