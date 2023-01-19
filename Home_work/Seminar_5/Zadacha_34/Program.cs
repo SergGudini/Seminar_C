@@ -6,7 +6,7 @@ int[] GetRandomArray(int size)
     int[] array = new int[size];
     for(int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(100, 1000);
+        array[i] = new Random().Next(100, 1000); // генератор случайных положительных чисел
     }
 
     return array;
