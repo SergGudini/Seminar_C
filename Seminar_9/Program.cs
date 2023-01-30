@@ -28,7 +28,7 @@ NaturalNumber(number2, number1);*/
 
 // Задача 67: Напишите программу, которая будет принимать на вход число и возвращать сумму его цифр.
 
-int SummaNumber(int number)
+/*int SummaNumber(int number)
 {
     int sum = 0;
     if (number == 10) return 0;
@@ -40,4 +40,20 @@ int SummaNumber(int number)
 }
 
 int N = 453;
-SummaNumber(N);
+SummaNumber(N);*/
+
+// Задача 69: Напишите программу, которая на вход принимает два числа A и B, 
+// и возводит число А в целую степень B с помощью рекурсии.
+
+int NaturalNumber(int A, int B)
+{
+    int step = 0;
+    if (B == 0) return 1;
+    else step = A * NaturalNumber(A, B - 1);
+    return step;
+    
+}
+
+int number = 3;
+int stepen = 5;
+NaturalNumber(number, stepen);
