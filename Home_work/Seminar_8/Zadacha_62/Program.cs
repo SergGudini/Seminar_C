@@ -1,11 +1,10 @@
 ﻿// Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
 
-int[,] GetRandomArray()//(int leftRange, int rightRange)
+int[,] SpiralArray()//(int leftRange, int rightRange)
 {
     int[,] array = new int[4,4];
     int number = 1;
-    int size = 4;
-
+    
     for(int k = 0; k < 4; k++)
     {
         for(int l = 0; l < 4; l++)
@@ -14,35 +13,28 @@ int[,] GetRandomArray()//(int leftRange, int rightRange)
         }
     }
    
-  int point = 0;
-  
-            for (int i = 0; i < 2; i++)
-            {
-                for (int j = 0; j < size; j++)
-                {
-                    array[i,j] = number;
-                    number++;
-                }
-                i = size - 1;
-                for (int j = 1; j < 4; j++)
-                {
-                    array[j,size-1] = number;
-                    number++;
-                }
-                size--;
-                for(int j = size - 1; j >= 0; j--)
-                {
-                    array[i,j] = number;
-                    number++;
-                }
+    int point = 0;
+    int i,j = 0;
+    int size = 4;
+    int temp = 0;
 
-                for(int j = size-1; j >= point+1; j-- )
-                {
-                    array[j,point] = number;
-                    number++;
-                }
-                point++;
-            }   
+    while (temp != 2)
+    {
+        for(i = point; i < size; i++) array[j,i] = number++;
+        j = i - 1;
+
+        for(i = point + 1; i < size; i++) array[i,j] = number++;
+
+        for(i = size - 2; i >= point; i--) array[j,i] = number++;
+
+        j = point;
+        for(i = size - 2; i > point; i--) array[i,j] = number++;
+
+        size = size - 1;
+        point++;
+        j = point;
+        temp++;
+    }
     
     return array;
 }
@@ -53,33 +45,13 @@ void PrintArray(int[,] array)
     {
         for(int j = 0; j < array.GetLength(1); j++)
         {
-            Console.Write(array[i, j] + " ");
+            if(array[i,j] > 0 && array[i,j] < 10) Console.Write($"0{array[i,j]} ");
+            else Console.Write(array[i,j] + " ");
         }
         Console.WriteLine();
     }
 }
 
-/*void PrintSpiralArray(int[,] array)
-{
-    for(int i = 0; i < array.GetLength(0); i++)
-    {
-        for(int j = 0; j < array.GetLength(1); j++)
-        {
-             
-            Console.Write(array[i, j] + " ");
-        }
-        if(j == array.GetLength(1) - 1) i = 1;
-        Console.WriteLine();
-    }
-}*/
+int[,] array = SpiralArray();
 
-
-//const int LEFTRANGE = 0;
-//const int RIGHTRANGE = 9;
-
-int[,] array1 = GetRandomArray();//(LEFTRANGE, RIGHTRANGE);
-
-Console.WriteLine("Обычный");
-PrintArray(array1);
-//Console.WriteLine("По спирали");
-//PrintSpiralArray(array1);
+PrintArray(array);
