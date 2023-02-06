@@ -10,5 +10,5 @@ void NaturalNumber(int N)
     
 }
 
-int number = 5;
+int number = 0;
 NaturalNumber(number);
